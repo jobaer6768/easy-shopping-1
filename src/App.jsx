@@ -1,7 +1,12 @@
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
-  return <div className="text-2xl text-red-500 font-bold">Hello World</div>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
